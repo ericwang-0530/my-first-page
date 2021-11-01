@@ -27,11 +27,11 @@ const Life = () => {
 
   return (
     <Timeline>
-      <TimelineHeader>1993</TimelineHeader>
+      <TimelineHeader>1989</TimelineHeader>
       <TimelineItem direction="right" time="5月" header="👶🏻" />
       <TimelineHeader>...</TimelineHeader>
       <TimelineItem header="🙇‍♂️ 好好学习，天天向上..." />
-      <TimelineHeader>2014</TimelineHeader>
+      <TimelineHeader>2012</TimelineHeader>
       <TimelineItem
         direction="right"
         time="6月"
@@ -45,20 +45,7 @@ const Life = () => {
           '最初写 C 和 Java，慢慢转写 JavaScript，前端真好玩！',
         ]}
       />
-      {/* <TimelineItem
-        time="9月"
-        node={<span className={styles.customNode}><img width={34} src={uci} alt="neu" /></span>}
-        header={['✈️ 美国', <span>研究生入学 <HighLight>UCI</HighLight></span>]}
-        content={['刷题，刷题，刷题... 面经，面经，面经...']}
-      />
-      <TimelineHeader>2019</TimelineHeader>
-      <TimelineItem
-        node={<span className={styles.customNode}><img width={30} src={dji} alt="dji" /></span>}
-        direction="right"
-        time="6月"
-        header={['🚗 一路向北去 Palo Alto', <span><HighLight>DJI</HighLight> 实习 @ Frontend Engineer</span>]}
-      /> */}
-      <TimelineHeader>2017</TimelineHeader>
+      <TimelineHeader>2015</TimelineHeader>
       <TimelineItem
         time="6月"
         header={['🎓 研究生毕业 🎉']}
@@ -69,14 +56,8 @@ const Life = () => {
           </span>,
         ]}
       />
-      {/* <TimelineItem
-        direction="right"
-        node={<span className={styles.customNode}>🇨🇳</span>}
-        time="5月"
-        header={['回国 🛬，隔离 😷，见家人 👨‍👩‍👦']}
-      /> */}
       <TimelineItem
-        time="6月"
+        time="7月"
         direction="right"
         node={<span className={styles.customNode}><img width={40} src={lucent} alt="tencent" /></span>}
         header={[

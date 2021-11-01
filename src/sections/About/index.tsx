@@ -5,11 +5,11 @@ import Profile from './Profile';
 import Life from './Life';
 import Paragraph from '../../components/Paragraph';
 import Title from '../../components/Title';
-import Button from '../../components/Button';
+// import Button from '../../components/Button';
 import Section from '../../components/Section';
 import HighLight from '../../components/HighLight';
 
-const resumeUrl = 'https://www.baidu.com';
+// const resumeUrl = 'https://www.baidu.com';
 
 const About = () => (
   <Section id="about" className={styles.about}>
@@ -33,13 +33,13 @@ const About = () => (
       </Paragraph>
     </Fade>
 
-    <Fade bottom>
+    {/* <Fade bottom>
       <div>
         <Button onClick={() => window.open(resumeUrl, '_blank')} className={styles.pulse}>
           我的简历
         </Button>
       </div>
-    </Fade>
+    </Fade> */}
   </Section>
 );
 
