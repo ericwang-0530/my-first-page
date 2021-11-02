@@ -28,19 +28,16 @@ const Contact = () => (
         </ul> */}
 
         <RubberBand top>
-          <p className={styles.subTitle}>👍 非常感谢您的关注，动动小手✋，简历我有📋</p>
+          <p className={styles.subTitle}>👍 非常感谢您的关注，希望能留下好的印象</p>
         </RubberBand>
 
         <Button
-          onClick={() => {
-            window.open('public/resume.pdf');
-          }}
+          onClick={() => {}}
           className={styles.emailBtn}
           bg="#7d0000"
         >
-          我的简历
+          个人邮箱✉：wcc8675399@126.com
         </Button>
-        <a href="public/resume.pdf" download>hello</a>
       </div>
     </Fade>
   </Section>
